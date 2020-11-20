@@ -1,4 +1,4 @@
-# plOrangeproject
+# plOrangeProject
 team orange
 project: Employee Logbook
                   (payroll system)
