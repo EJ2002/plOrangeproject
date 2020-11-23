@@ -10,6 +10,6 @@ features: Calendar,
           logbook,
           salary breakdown.
 
-Team Lead: Ethan Gerard Gelua
-Rapporteur: Dondie Emanuel Maglunsod
-Member: Emmanuel Jordan Onera
+  Team Lead: Ethan Gerard Gelua
+  Rapporteur: Dondie Emanuel Maglunsod
+  Member: Emmanuel Jordan Onera
