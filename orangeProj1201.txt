@@ -1,26 +1,18 @@
 ﻿Team:PlOrange
-
-
+ 
 Members: Onera, EJ.
-      Gelua, EG.
-                 Maglunsod, DE.
-
+         Gelua, EG.
+         Maglunsod, DE.
 
 Discussion/s:
 1. Finalization of I.P.O chart
 2. Login page codes
 3. documentation
 
-
-
-
 Problems encountered:
 1. How to change pages after login
 2. Error message for unsuccessful login
 3. Parts of I.P.O
-
-
-
 
 Solution/s:
 1. The use of if statement for the login
