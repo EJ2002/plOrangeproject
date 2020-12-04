@@ -5,6 +5,8 @@ class Login_system:
         self.root = root
         self.root.title("System")
 
+        root.geometry("{0}x{1}+0+0".format(root.winfo_screenwidth(), root.winfo_screenheight()))
+        
         #self.bgpic = PhotoImage(file =  "image/bg.jpg")
         #self.userpic = PhotoImage(file = "images/man-user.jpg")
         #self.passpic = PhotoImage(file = "images/password.jpg")
@@ -18,10 +20,10 @@ class Login_system:
         FrameL = Frame(self.root, bg = "grey")
         FrameL.place(x = 450, y = 150)
 
-        luser = Label(FrameL, text = "Input username", compound = LEFT, font =( "times new roman", 10)).grid(row = 1, column = 0, padx = 20, pady = 10)
+        luser = Label(FrameL, text = "Username", compound = LEFT, font =( "times new roman", 10)).grid(row = 1, column = 0, padx = 20, pady = 10)
         user = Entry(FrameL, bd="5", textvariable = self.username, relief=GROOVE, font=("", 15)).grid(row=1, column=1, padx=20)
-        luser = Label(FrameL, text = "Input username", compound = LEFT, font =( "times new roman", 10)).grid(row = 2, column = 0, padx = 20, pady = 10)
-        password = Entry(FrameL, bd="5", textvariable = self.password, relief=GROOVE, font=("", 15)).grid(row=2, column=1, padx=20)
+        luser = Label(FrameL, text = "Password", compound = LEFT, font =( "times new roman", 10)).grid(row = 2, column = 0, padx = 20, pady = 10)
+        password = Entry(FrameL, bd="5", textvariable = self.password, show = "*", relief=GROOVE, font=("", 15)).grid(row=2, column=1, padx=20)
 
         log = Button(FrameL, text = "Login", width = 15,command = self.login,  font =( "times new roman", 10), bg = "grey").grid(row = 3, column = 1, pady = 10)
 
