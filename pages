@@ -1,0 +1,49 @@
+#appears after successful login 
+self.root.destroy()
+            def raise_frame(frame):
+                frame.tkraise()
+
+            root = Tk()
+            root.geometry('360x360')
+            profile = Frame(root)
+            calendar = Frame(root)
+            logbook = Frame(root)
+            salary = Frame(root)
+
+            for frame in (profile, calendar, logbook, salary):
+                frame.grid(row=0, column=0, sticky='news')
+
+
+
+            #profile
+            Button(profile, text='profile', command=lambda: raise_frame(profile)).pack(side='left')
+            Button(profile, text='Calendar', command=lambda: raise_frame(calendar)).pack(side='left')
+            Button(profile, text='logbook', command=lambda: raise_frame(logbook)).pack(side='left')
+            Button(profile, text='salary', command=lambda: raise_frame(salary)).pack(side='left')
+            Label(profile, text='Name:box').pack()
+            Label(profile, text=' Age:400 years old').pack()
+
+            #calendar
+            Button(calendar, text='profile', command=lambda: raise_frame(profile)).pack(side='left')
+            Button(calendar, text='Calendar', command=lambda: raise_frame(calendar)).pack(side='left')
+            Button(calendar, text='logbook', command=lambda: raise_frame(logbook)).pack(side='left')
+            Button(calendar, text='salary', command=lambda: raise_frame(salary)).pack(side='left')
+            Label(calendar, text='SCHEDULE').pack()
+
+            #logbook
+            Button(logbook, text='profile', command=lambda: raise_frame(profile)).pack(side='left')
+            Button(logbook, text='calendar', command=lambda: raise_frame(calendar)).pack(side='left')
+            Button(logbook, text='logbook', command=lambda: raise_frame(logbook)).pack(side='left')
+            Button(logbook, text='salary', command=lambda: raise_frame(salary)).pack(side='left')
+            Label(logbook, text='LOGBOOK').pack(side='left')
+
+
+            #salary
+            Button(salary, text='profile', command=lambda: raise_frame(profile)).pack(side='left')
+            Button(salary, text='Calendar', command=lambda: raise_frame(calendar)).pack(side='left')
+            Button(salary, text='logbook', command=lambda: raise_frame(logbook)).pack(side='left')
+            Button(salary, text='salary', command=lambda: raise_frame(salary)).pack(side='left')
+            Label(salary, text='SALARY').pack()
+
+            raise_frame(profile)
+            root.mainloop()
