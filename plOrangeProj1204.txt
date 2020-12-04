@@ -1,10 +1,13 @@
 Discussion: 
-Create the payroll program using Tkinter.
-Update the login.py
+1.Create the payroll program using Tkinter.
+2.Update the login.py
+3.making of pages
 
-Problems:
-We are still figuring out how will we be able to formulate
-a program with or without the use of database.
+Problems encountered:
+1.We are still figuring out how will we be able to formulate
+  a program with or without the use of database.
+2. pages not showing after login
 
 Solution:
-An indefinite solution to it but I think this is possible to be resolved.
+1.An indefinite solution to it but I think this is possible to be resolved.
+2. Destroy the first root then create a new one
