@@ -7,10 +7,6 @@ class Login_system:
 
         root.geometry("{0}x{1}+0+0".format(root.winfo_screenwidth(), root.winfo_screenheight()))
         
-        #self.bgpic = PhotoImage(file =  "image/bg.jpg")
-        #self.userpic = PhotoImage(file = "images/man-user.jpg")
-        #self.passpic = PhotoImage(file = "images/password.jpg")
-
         self.username = StringVar()
         self.password = StringVar()
 
