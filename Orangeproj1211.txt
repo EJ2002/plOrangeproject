@@ -1,102 +1,23 @@
 ﻿Team:PlOrange
-
-
-	
-
-	
-
-	
-
-
-
-	
-
+ 
 	Members: Onera, EJ.
-
-
-	
-
-	        Gelua, EG.
-
-
-	
-
-	        Maglunsod, DE.
-
-
-	
-
-	
-
-
-
-	
+	         Gelua, EG.
+	         Maglunsod, DE.
 
 	Discussion/s:
-
-
 	
-
-	1. Finalization of codes
-
-
-	
-
-	2. Payroll codes
-
-
-	
-
-	3. Checking of codes
-
-
-	
-
-	
-
-
-
-	
+		1. Finalization of codes
+		2. Payroll codes
+		3. Checking of codes
 
 	Problems encountered:
-
-
 	
-
-	1. Login is not looped
-
-
-	
-
-	2. Errors to handle
-
-
-	
-
-	3. Parts of Payroll
-
-
-	
-
-	
-
-
-
-	
+		1. Login is not looped
+		2. Errors to handle
+		3. Parts of Payroll
 
 	Solution/s:
 
-
-	
-
-	1. We added while true statement
-
-
-	
-
-	2. We decided to add three(3) error handling codes that we notice
-
-
-	
-
-	3. We decided to make the rates per hour fix
+		1. We added while true statement
+		2. We decided to add three(3) error handling codes that we notice
+		3. We decided to make the rates per hour fix
