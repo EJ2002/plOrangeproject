@@ -380,10 +380,10 @@ try:
     def print_pay():
         emp_name = input("Type in name or\nType |Back| to return to menu: ")
         if emp_name in employee:
-            print(emp_name)
-            print(emp_gross[emp_name])
-            print(emp_total_deduct[emp_name])
-            print(emp_net_pay[emp_name])
+            print(emp_name, "salary" )
+            print('Gross pay:', emp_gross[emp_name], "pesos")
+            print('Deductions:', emp_total_deduct[emp_name], "pesos")
+            print('Net pay:', emp_net_pay[emp_name], "pesos")
     admin_menu()
     events_menu()
     payroll()
