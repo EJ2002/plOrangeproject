@@ -1,0 +1,29 @@
+How to use the Payroll System:
+
+  Step 1:Login
+  
+         if successful, you will see the command list.
+         if not, you will be asked to try again.
+         
+  Step 2:Select a command
+  
+         if you select Payroll, you will be asked to input an employee name or return back to the command list.
+         if you select Events, you will be asked to input an event.
+         if you select Print, the salary of the employee selected in Payroll will be printed.
+         
+  Step 3:(if you select payroll)"
+  
+         Type in the number of hours the employee has worked.
+         Type in the number of hours he / she has worked overtime if applicable.
+         Type Back to return to the command list
+         
+  Step 4:(if you select Print)
+  
+         Type the name of the employee inputed in the Payroll command.
+         Type back to return to the command list.
+         
+  Step 5:(if you select events)
+  
+         Input the event name.
+         Input the event time.
+         Input the event place.
